@@ -16,11 +16,11 @@ export const Container = () => {
    }, [value]);
 
    return (
-      <div className="counter">
+      <div className="counter shadow">
          <CountWrapper value={value} />
          <Button
             name="+"
-            newClass="btn btn-outline-success m-3 w-25"
+            newClass="btn btn-outline-success m-3 w-50 shadow-sm"
             handleClick={handleValue}
          />
       </div>
