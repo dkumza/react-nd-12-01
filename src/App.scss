@@ -8,5 +8,16 @@
       height: 600px;
       border-radius: 25px;
       padding: 20px;
+
+      .azuolai,
+      .berzai,
+      .uosiai {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-width: 120px;
+         border: 1px solid rgba(0, 0, 0, 0.188);
+         height: 30px;
+      }
    }
 }
