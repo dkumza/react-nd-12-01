@@ -1,7 +1,29 @@
+.container-1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   .square {
+      width: 145px;
+      height: 145px;
+      border: 1px solid rgb(51, 153, 93);
+   }
+
+   .btn {
+      width: 140px;
+   }
+}
+
 .field {
    width: 900px;
-   height: 700px;
-   //   border: 1px solid rebeccapurple;
+   height: 750px;
+   border: 1px solid rebeccapurple;
+
+   //    .btn {
+   //       height: 60px;
+   //       width: 200px;
+   //    }
 
    .col {
       background-color: rgba(17, 179, 20, 0.324);

@@ -10,7 +10,7 @@ import { Task02 } from "./Components/Task02";
 
 function App() {
    return (
-      <div className="container d-flex justify-content-center mt-5">
+      <div className="container d-flex justify-content-center m-5 ">
          {/* 1st task */}
          {/* <Field /> */}
          <Task02 />
